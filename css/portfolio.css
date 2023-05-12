@@ -51,10 +51,27 @@ figure{
     position: relative;
     float: left;
 }
+.portrait{
+    padding-top: 7%;
+    width: 100%;
+}
 figure img{
     height: 125px;
 }
 figcaption{
+    background-color: black;
+    color: white;
+    opacity: 0.7;
+    position: absolute;
+    left: 0;
+    top: 102px;
+    width: 120px;
+    height: 20px;
+    padding-left: 5px;
+    padding-top: 3px;
+}
+.dateview{
+    
     background-color: black;
     color: white;
     opacity: 0.7;
